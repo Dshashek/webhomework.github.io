@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css"></link>
+  <title>Landing Page</title>
+</head>
+<div class="container-fluid">
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <!-- Brand -->
+  <a class="navbar-brand" href="./Landing_Page.html">Latitude</a>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="./Data.html">Data</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./Comparisons.html">Comparisons</a>
+    </li>
+
+  
+    <!-- Dropdown -->
+    <ul class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Plots
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="./Max_Temperature.html">Max Temperature</a>
+        <a class="dropdown-item" href="./Humidity.html">Humidity</a>
+        <a class="dropdown-item" href="./Cloudiness.html">Cloudiness</a>
+        <a class="dropdown-item" href="./Wind_Speed.html">Wind Speed</a>
+
+      </div>
+    </ul>
+  </ul>
+</nav>
+</div>
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-7">
+
+          <div class = "jumbotron">
+              <h1 class="Display-4"> Summary: Latitude vs X </h1>
+              <hr class="my-4">
+            </div> 
+<div class="col-8">
+
+          <p>  
+              The Purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+
+              After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included, temperature, cloudiness, wind speed, and humdiity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+            </p>
+          </div>
+        </div>
+      <div class="col-5">
+          <div class = "jumbotron">
+              <h1 class="Display-3"> Visualizations </h1>
+              <hr class="my-4">
+      </div>
+      <div class= "row">
+
+      <div class = "col-4">
+            <a href="./Max_Temperature.html"> <img src="./resources/Fig1.png"  class="img-r" alt="Max Temperature vs Latitude">
+            <a href="./Humidity.html"> <img src="./resources/Fig2.png"  class="img-r" alt="Max Humidity vs Latitude">
+            </div>
+              <div class="col-2">
+              <a href="./Cloudiness.html"> <img src="./resources/Fig3.png"  class="img-r" alt="Max Cloudiness vs Latitude">
+            <a href="./Wind_Speed.html"> <img src="./resources/Fig4.png"  class="img-r" alt="Max Wind Speed vs Latitude"></a>
+          </div>
+          </div>
+      </div>
+    </div>
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

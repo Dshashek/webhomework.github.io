@@ -1,0 +1,21 @@
+.navbar-brand {
+    background-color: lightblue;
+    
+    
+}
+
+.img-l {
+    position: relative;  
+    width: 250px;
+    height: 250px;
+    align-content: center
+
+}
+
+.img-r {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    vertical-align: 100%
+    flex: 50%;
+}
